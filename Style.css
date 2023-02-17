@@ -1,0 +1,154 @@
+body{
+    background: linear-gradient(50deg, rgb(55, 174, 204),purple);
+}
+.container{
+display: flex;
+height: 560px;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+#box-1{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+background-color: azure;
+background-image: url(./images.jfif);
+background-size: cover;
+animation-name: CSS;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+
+}
+
+.box{
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 2px;
+color: white;
+}
+
+@keyframes CSS{
+0%{
+    transform: translateY(0);
+}
+100%{
+    transform: translateY(-20px);
+}
+}
+
+.top{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+
+
+}
+.logo img{
+width: 25px;
+height: 25px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 8px;
+margin: 8px;
+border-radius:50% ;
+
+
+
+
+}
+
+.lo1{
+position: relative;
+top: -150px;
+}
+
+.lo2{
+position: relative;
+top: -150px;
+}
+.lo3{
+position: relative;
+top: -150px;
+}
+.lo4{
+position: relative;
+top: -150px;
+}
+
+.name{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.name{
+position: relative;
+top: -150px;
+}
+
+
+.buy{
+height: 45px;
+width: 190px;
+border-radius: 12px;
+background-color: red;
+color: white;
+font-family: 'Roboto Flex', sans-serif;
+font-size: 15px;
+
+}
+
+@media (min-width:300px) and (max-width:500px){
+    
+.container{
+    display: flex;
+    height: 560px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    #box-1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: azure;
+    background-image: url(./images.jfif);
+    background-size: cover;
+    animation-name: CSS;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+    }
+    
+    .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2px;
+    color: white;
+    }
+
+    .box h1{
+        font-size:15px ;
+    }
+
+}
+
+
+
